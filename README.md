@@ -1,3 +1,6 @@
+<img width="1920" height="1080" alt="AlkariSpy" src="https://github.com/user-attachments/assets/73dfe951-fcf3-44f5-bcb0-ee9e4b0c4c94" />
+
+
 # AlkariSpy - OSINT Tool
 
 **AlkariSpy** is an **Open Source Intelligence (OSINT)** tool that allows you to search for usernames and personal data across various social media platforms and websites. It uses **Google Dorking** to search for personal information and online profiles across the internet.
