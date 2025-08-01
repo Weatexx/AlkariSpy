@@ -34,6 +34,8 @@ git clone https://github.com/Weatexx/AlkariSpy.git
 cd AlkariSpy
 chmod +x install.sh
 ./install.sh
+source venv/bin/activate && alkariSpy
+alkarispy
 ```
 
 #### Windows (PowerShell):
@@ -42,10 +44,12 @@ git clone https://github.com/Weatexx/AlkariSpy.git
 cd AlkariSpy
 ./install.ps1
 ```
-
+[TR]
+Otomatik olarak bir sanal ortam oluşturacak ve tüm bağımlılıkları yükleyecektir. Araç, etkinleştirilmiş ortamda 'alkarispy' komutu ile erişilebilir olacaktır.
+[EN]
 This will automatically create a virtual environment and install all dependencies. The tool will be available as `alkarispy` in the activated environment.
 
-### Manual Installation (If you prefer)
+### Manual Installation (If you prefer) - Manüel Yükleme (Tercihe Bağlı)
 
 1. Clone the repository:
    ```bash
