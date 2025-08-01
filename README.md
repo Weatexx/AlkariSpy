@@ -26,7 +26,48 @@
 
 **Python 3.x** must be installed.
 
+### Automatic Installation (Recommended for Kali/Linux/Windows)
+
+#### Linux/Kali:
+```bash
+git clone https://github.com/Weatexx/AlkariSpy.git
+cd AlkariSpy
+chmod +x install.sh
+./install.sh
+```
+
+#### Windows (PowerShell):
+```powershell
+git clone https://github.com/Weatexx/AlkariSpy.git
+cd AlkariSpy
+./install.ps1
+```
+
+This will automatically create a virtual environment and install all dependencies. The tool will be available as `alkarispy` in the activated environment.
+
+### Manual Installation (If you prefer)
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Weatexx/AlkariSpy.git
    cd AlkariSpy
+   ```
+2. Create and activate a virtual environment:
+   - **Linux/Kali:**
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - **Windows (PowerShell):**
+     ```powershell
+     python -m venv venv
+     .\venv\Scripts\Activate.ps1
+     ```
+3. Install the project:
+   ```bash
+   pip install .
+   ```
+
+**Do not install system-wide! Always use a virtual environment to avoid errors on Kali and similar systems.**
+
+---
