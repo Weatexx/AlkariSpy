@@ -7,7 +7,7 @@ setup(
     author='None',  # Yazar adı
     author_email='None',  # Yazar e-posta adresi
     url='https://github.com/Weatexx/AlkariSpy',  # Proje URL'si
-    packages=find_packages(),  # Proje paketlerini bulur
+    py_modules=['main', 'username_scan', 'dork_search', 'email_search'],  # Tek dosyalık modüller
     install_requires=[  # Gereksinimler
         'requests',
         'googlesearch-python',
