@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='alkarimenu',  # Komut ismi
+    name='alkarispy',  # Komut ismi
     version='0.1',  # Proje versiyonu
     description='An OSINT tool for searching usernames and personal data across various platforms using Google Dorking.',
     author='None',  # Yazar adı
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={  # Komut satırında çalıştırılabilir yapmak için
         'console_scripts': [
-            'alkarimenu = main:run_osint_tool',  # main.py içindeki 'run_osint_tool' fonksiyonunu çalıştır
+            'alkarispy = main:run_osint_tool',  # main.py içindeki 'run_osint_tool' fonksiyonunu çalıştır
         ],
     },
     classifiers=[  # Python projeniz için sınıflandırmalar
