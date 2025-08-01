@@ -28,5 +28,5 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/AlkariSpy.git
+   git clone https://github.com/Weatexx/AlkariSpy.git
    cd AlkariSpy
